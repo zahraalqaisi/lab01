@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phones</title>
+    <style>
+        .first{
+
+           background-color: chartreuse;color: black;
+        }
+        .second{
+            background-color: coral;
+            color: darkgreen;
+            text-align: center;
+        }
+        #p1{
+            background-color: darkgreen; color: darkorange; text-align: center;
+        }
+        #p2{
+            background-color: darkorange; color: darkslategrey; text-align: center;
+        }
+        #p3{
+            background-color: darkgreen; color: darkorange; text-align: center;
+        }
+        #p4{
+            background-color: darkorange; color: darkslategrey; text-align: center;
+
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 style="text-align: center;color: black;background-color: chartreuse;">
+            phones
+        </h1>
+        <nav>
+            <ul>
+                <li><a class="first" href="https://shop.samsung.com/jo">samsung</a></li>
+                <li><a class="first" href="https://www.apple.com/jo-ar/iphone/">apple</a></li>
+                <li><a class="first" href="https://consumer.huawei.com/levant-ar/">hawaii</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <p class="second">
+            the world in your phone
+        </p>
+        <p id="p1">
+            what`s your name?
+        </p>
+        <p id="p2"> 
+            what`s your age? 
+        </p>
+        <p id="p3">
+            what is the type of your phone?
+        </p>
+        <p id="p4">
+            do you like our website?
+        </p>
+
+    </main>
+
+    <footer>
+        &copy; ASAC2021
+
+    </footer>
+
+    <script>
+        let userName=prompt('what\`s your name?');
+        console.log("userName",userName);
+
+        alert('hi' + userName);
+
+        let age=prompt('what\`s your age?');
+        console.log("age",age);
+
+        alert('hi' + userName+ 'your age is'+ age);
+
+        let type=prompt('What is the type of your phone?'); 
+        console.log("type",type);
+
+        alert('hi' + userName+ 'your age is'+ age + 'your phone type is'+ type);
+
+        let opinion=prompt('do you like our website?');
+        console.log("opinion",opinion);
+
+        alert('hi' + userName+ 'your age is'+ age + 'your phone type is'+ type +'thank you for visiting us' );
+
+        
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
